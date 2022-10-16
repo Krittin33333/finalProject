@@ -8,7 +8,7 @@ const HomeScreen = ({navigation}) => {
     <FontAwesome name="home" size={30} color="#8D8DCB" />
     <Text>HomeScreen</Text>
     
-    <Button color="#8D8DCB"
+    <Button color="#8D8161"
      title= 'เกี่ยวกับเรา' 
      onPress={()=>navigation.navigate('About',{
         email:'reactnative.tni.ac.th'  
